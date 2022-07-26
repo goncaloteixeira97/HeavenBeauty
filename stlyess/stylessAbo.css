@@ -1,0 +1,165 @@
+/*=======================ALL========================*/
+body{
+    background-image:url("/img/wal.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0%;
+    padding: 0%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/*=======================NAVHEADER======================*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height:9em;
+    background-color:white;
+    border-bottom: 1px solid black;
+}
+/*/////////img////////*/
+.imgLogo{
+    height: 5em;
+}
+/*/////////menu////////*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin-top: 3em;
+}
+.li1{
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+a:hover{
+    transition: 0.6s; 
+    color: rgb(255,170,205);
+}
+#Line{
+    text-decoration:5px underline rgb(255,170,205); 
+}
+
+
+
+
+
+
+
+/*=======================MAIN========================*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14em;
+    margin-bottom: 3em;
+}
+/*////////Section FIRST//////*/
+.First{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.imgMain1{
+    width: 30em;
+}
+.FirstText{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    width: 25em;
+    height: min-content;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,170,205);
+    text-align:left;
+    text-shadow: 2px 2px 3px rgb(255, 0, 221);
+}
+.textP{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+
+
+/*////////Section SECOND//////*/
+.Second{ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.SecondText{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    width: 57em;
+    height: min-content;
+}
+.Photos{
+    display: flex;
+    justify-content: center;
+    gap:2em
+}
+.imgMain2{
+    width: 29em;
+    height: 35em;
+}
+
+/*////////Section THIRD//////*/
+iframe{
+    width: 60em;
+    height: 12em;
+}
+
+
+
+
+
+
+
+
+
+/*=======================FOOTER======================*/
+footer{
+    position:static;
+    bottom: 0%;
+    width: 100%;
+    border-top: 1px solid black;
+}
+.footerBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    gap: 10px;
+    height: 160px;
+}
+.logoDown{
+    height:30px;
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+i{
+    font-size: larger;
+}
